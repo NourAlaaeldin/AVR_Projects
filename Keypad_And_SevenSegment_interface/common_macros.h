@@ -15,7 +15,7 @@
 #define CLEAR_BIT(REG,BIT) 		(REG &= ~(1 << BIT))
 
 /* Toggle a certain bit in any register */
-#define TOGGLE_BIT(REG,BIT) 	(REG ^= (1 << BIT))
+#define TOGGLE_BIT(REG,BIT) 		(REG ^= (1 << BIT))
 
 /* Rotate right the register value with specific number of rotates */
 #define ROR(REG,NUM)			(REG = (REG >> NUM) | (REG << (8 - NUM)))
@@ -27,6 +27,6 @@
 #define BIT_IS_SET(REG,BIT)		(REG & (1 << BIT))
 
 /* Check if a specific bit is cleared in any register */
-#define BIT_IS_CLEAR(REG,BIT)	(!(REG & (1 << BIT)))
+#define BIT_IS_CLEAR(REG,BIT)		(!(REG & (1 << BIT)))
 
 #endif /* COMMON_MACROS_H_ */

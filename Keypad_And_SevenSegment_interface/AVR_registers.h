@@ -73,13 +73,13 @@
 
 /* External interrupt */
 
-#define MCUCR_R     (*(volatile uint8 * const)0x0055)
+#define MCUCR_R         (*(volatile uint8 * const)0x0055)
 
 #define ISC01_B		0
 #define ISC10_B		1
 #define ISC11_B		2
 
-#define MCUCSR_R    (*(volatile uint8 * const)0x0054)
+#define MCUCSR_R        (*(volatile uint8 * const)0x0054)
 
 #define ISC2_B		6
 

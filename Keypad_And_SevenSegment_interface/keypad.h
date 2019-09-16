@@ -22,7 +22,7 @@
  *******************************************************************************/
 
 #define NO_OF_ROWS		4
-#define NO_OF_COLUMNS	4
+#define NO_OF_COLUMNS		4
 
 #define KEYPAD_DIR		DDRA_R
 #define KEYPAD_OUT		PORTA_R
